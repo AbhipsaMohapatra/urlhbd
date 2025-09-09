@@ -178,7 +178,7 @@ function App() {
             >
               <div
                 className="absolute inset-0 opacity-10 bg-center bg-no-repeat bg-contain pointer-events-none"
-                style={{ backgroundImage: "url('/rose.webp')" }}
+                style={{ backgroundImage: "url('rose.webp')" }}
               ></div>
 
               <h2 className="text-xl my-1">Dear Ritesh,</h2>
