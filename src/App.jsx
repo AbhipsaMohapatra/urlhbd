@@ -20,46 +20,46 @@ function App() {
   }, []);
   const positions = [
     // Top edge
-    { top: "2%", left: "2%", size: "w-36 h-36" ,src: "/aot1.jpg"},
-    { top: "3%", left: "25%", size: "w-40 h-40",src: "/aot2.jpg" },
-    { top: "5%", left: "55%", size: "w-32 h-32" ,src: "/aot3.jpg"},
-    { top: "4%", left: "85%", size: "w-36 h-36",src: "/aot4.jpg" },
+    { top: "2%", left: "2%", size: "w-36 h-36" ,src: "aot1.jpg"},
+    { top: "3%", left: "25%", size: "w-40 h-40",src: "aot2.jpg" },
+    { top: "5%", left: "55%", size: "w-32 h-32" ,src: "aot3.jpg"},
+    { top: "4%", left: "85%", size: "w-36 h-36",src: "aot4.jpg" },
 
     // Upper-mid
-    { top: "15%", left: "10%", size: "w-36 h-36",src: "/aot5.jpg"  },
-    { top: "18%", left: "40%", size: "w-40 h-40",src: "/aot6.webp"  },
-    { top: "12%", left: "70%", size: "w-32 h-32",src: "/aot7.webp"  },
+    { top: "15%", left: "10%", size: "w-36 h-36",src: "aot5.jpg"  },
+    { top: "18%", left: "40%", size: "w-40 h-40",src: "aot6.webp"  },
+    { top: "12%", left: "70%", size: "w-32 h-32",src: "aot7.webp"  },
 
     // Left side
-    { top: "25%", left: "2%", size: "w-36 h-36",src: "/aot8.webp"  },
-    { top: "45%", left: "4%", size: "w-40 h-40",src: "/aot6.webp"  },
-    { top: "65%", left: "6%", size: "w-36 h-36",src: "/aot7.webp"  },
-    { top: "85%", left: "3%", size: "w-32 h-32" ,src: "/aot8.jpg" },
+    { top: "25%", left: "2%", size: "w-36 h-36",src: "aot8.webp"  },
+    { top: "45%", left: "4%", size: "w-40 h-40",src: "aot6.webp"  },
+    { top: "65%", left: "6%", size: "w-36 h-36",src: "aot7.webp"  },
+    { top: "85%", left: "3%", size: "w-32 h-32" ,src: "aot8.jpg" },
 
     // Right side
-    { top: "20%", left: "92%", size: "w-36 h-36",src: "/aot9.jpg"  },
-    { top: "40%", left: "94%", size: "w-40 h-40",src: "/aot10.webp"  },
-    { top: "60%", left: "90%", size: "w-36 h-36",src: "/aot7.webp" },
-    { top: "80%", left: "95%", size: "w-32 h-32",src: "/aot1.jpg" },
+    { top: "20%", left: "92%", size: "w-36 h-36",src: "aot9.jpg"  },
+    { top: "40%", left: "94%", size: "w-40 h-40",src: "aot10.webp"  },
+    { top: "60%", left: "90%", size: "w-36 h-36",src: "aot7.webp" },
+    { top: "80%", left: "95%", size: "w-32 h-32",src: "aot1.jpg" },
 
     // Middle scattered
-    { top: "30%", left: "30%", size: "w-40 h-40",src: "/aot11.jpg" },
-    { top: "35%", left: "65%", size: "w-36 h-36",src: "/aot13.webp"  },
-    { top: "50%", left: "45%", size: "w-40 h-40",src: "/aot3.jpg" },
-    { top: "55%", left: "70%", size: "w-36 h-36",src: "/aot12.jpg" },
-    { top: "42%", left: "20%", size: "w-32 h-32",src: "/aot14.jpg" },
+    { top: "30%", left: "30%", size: "w-40 h-40",src: "aot11.jpg" },
+    { top: "35%", left: "65%", size: "w-36 h-36",src: "aot13.webp"  },
+    { top: "50%", left: "45%", size: "w-40 h-40",src: "aot3.jpg" },
+    { top: "55%", left: "70%", size: "w-36 h-36",src: "aot12.jpg" },
+    { top: "42%", left: "20%", size: "w-32 h-32",src: "aot14.jpg" },
 
     // Lower-mid
-    { top: "68%", left: "30%", size: "w-40 h-40",src: "/aot4.jpg"  },
-    { top: "72%", left: "55%", size: "w-36 h-36",src: "/aot7.webp" },
-    { top: "78%", left: "75%", size: "w-40 h-40",src: "/aot2.jpg" },
+    { top: "68%", left: "30%", size: "w-40 h-40",src: "aot4.jpg"  },
+    { top: "72%", left: "55%", size: "w-36 h-36",src: "aot7.webp" },
+    { top: "78%", left: "75%", size: "w-40 h-40",src: "aot2.jpg" },
 
     // Bottom edge
-    { top: "92%", left: "5%", size: "w-36 h-36",src: "/aot4.jpg" },
-    { top: "94%", left: "30%", size: "w-40 h-40",src: "/aot5.jpg" },
-    { top: "90%", left: "55%", size: "w-36 h-36",src: "/aot10.webp" },
-    { top: "95%", left: "80%", size: "w-40 h-40",src: "/aot14.jpg"  },
-    { top: "92%", left: "92%", size: "w-36 h-36",src: "/aot1.jpg" },
+    { top: "92%", left: "5%", size: "w-36 h-36",src: "aot4.jpg" },
+    { top: "94%", left: "30%", size: "w-40 h-40",src: "aot5.jpg" },
+    { top: "90%", left: "55%", size: "w-36 h-36",src: "aot10.webp" },
+    { top: "95%", left: "80%", size: "w-40 h-40",src: "aot14.jpg"  },
+    { top: "92%", left: "92%", size: "w-36 h-36",src: "aot1.jpg" },
   ];
 
   useGSAP(() => {
